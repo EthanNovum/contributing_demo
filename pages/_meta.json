@@ -7,17 +7,5 @@
   "contributing": {
     "title": "贡献指北",
     "type": "page"
-  },
-  "prompts": {
-    "title": "AI提示词库",
-    "type": "page"
-  },
-  "security": {
-    "title": "AI安全专题",
-    "type": "page"
-  },
-  "about": {
-    "title": "关于我们",
-    "type": "page"
-  }
+  } 
 } 

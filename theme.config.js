@@ -1,15 +1,15 @@
 export default {
-  logo: <span style={{ fontWeight: 'bold' }}>Westlake for Good</span>,
+  logo: <span style={{ fontWeight: 'bold' }}>Westlake AI for Good</span>,
   project: {
     link: 'https://github.com/westlake-ai/ai-for-good',
   },
   docsRepositoryBase: 'https://github.com/westlake-ai/ai-for-good/tree/main',
   footer: {
-    text: `© ${new Date().getFullYear()} Westlake for Good. 基于 MIT 许可协议.`,
+    text: `© ${new Date().getFullYear()} Westlake AI for Good. 基于 MIT 许可协议.`,
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Westlake for Good'
+      titleTemplate: '%s – Westlake AI for Good'
     }
   },
   search: {

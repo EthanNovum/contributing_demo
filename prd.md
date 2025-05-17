@@ -1,6 +1,6 @@
 ## 一、项目背景与目标
 
-“Westlake for Good”旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指北](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
+“Westlake AI for Good”旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指北](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
 
 ## 二、Nextra简介
 

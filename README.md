@@ -1,6 +1,6 @@
-# Westlake for Good
+# Westlake AI for Good
 
-"Westlake for Good"是一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。
+"Westlake AI for Good"是一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。
 
 ## 项目概述
 
