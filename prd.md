@@ -1,6 +1,6 @@
 ## 一、项目背景与目标
 
-“Westlake for Good”旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指南](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
+“Westlake for Good”旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指北](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
 
 ## 二、Nextra简介
 
@@ -11,7 +11,7 @@
 3. **侧边栏自动化**：依据文件夹与 Front Matter，自动生成侧边栏导航。
 4. **主题与样式**：内置简洁主题，可定制全局样式、代码高亮、搜索等。
 
-借助 Nextra，我们可以快速搭建多层级文档网站，并且围绕“贡献指南”“AI 提示词库”“AI 安全讨论”分区展示，方便社区成员阅读、提案、提交 PR。
+借助 Nextra，我们可以快速搭建多层级文档网站，并且围绕“贡献指北”“AI 提示词库”“AI 安全讨论”分区展示，方便社区成员阅读、提案、提交 PR。
 
 ## 三、产品定位与范围
 
@@ -19,17 +19,17 @@
 - **产品定位**：去中心化、开源的知识库与社区，侧重文档贡献和协作；
 - **主要模块**：
   - 文档展示（Contributing、AI 提示词、AI 安全）
-  - 贡献指南与工作流
+  - 贡献指北与工作流
   - 社区讨论区
   - 版本管理与自动化部署
 
 ## 四、核心功能需求
 
-1. **文档贡献指南**
+1. **文档贡献指北**
 
    - 基于 Nextra 的贡献文档模板
    - 清晰的 `Fork → Edit → PR` 流程示例
-   - 常见问题与排查指南
+   - 常见问题与排查指北
 
 2. **AI 提示词库**
 
@@ -47,7 +47,7 @@
    - 支持主题分类、标签、订阅通知
 
 5. **文件与路由组织**
-   参考 [Nextra 文件组织指南](https://nextra-v2-7hslbun8z-shud.vercel.app/docs/guide/organize-files)，主要目录：
+   参考 [Nextra 文件组织指北](https://nextra-v2-7hslbun8z-shud.vercel.app/docs/guide/organize-files)，主要目录：
 
    ```
    docs/
@@ -57,7 +57,7 @@
    ├── prompts/
    │   ├── index.md        # AI 提示词总览
    │   └── {category}/
-   │       └── guide.md    # 各类 Prompt 指南
+   │       └── guide.md    # 各类 Prompt 指北
    ├── security/
    │   ├── index.md        # AI 安全概述
    │   └── threats.md      # 常见攻击与防御
