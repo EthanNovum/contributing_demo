@@ -1,0 +1,33 @@
+import { Card } from '../components/Card'
+
+# Westlake for Good
+
+欢迎来到 **Westlake for Good** —— 一个去中心化的社区协作网络，我们致力于在AI提示词工程与AI安全领域开展协作与贡献。
+
+## 项目愿景
+
+"Westlake for Good"旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指南](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
+
+## 参与贡献
+
+我们欢迎各种形式的贡献，无论您是研究人员、工程师还是爱好者。
+
+<div className="mt-8 grid gap-4 grid-cols-1 md:grid-cols-3">
+  <Card 
+    title="如何贡献" 
+    description="了解参与社区贡献的方式与流程" 
+    href="/contributing" 
+  />
+  <Card 
+    title="AI提示词库" 
+    description="探索、使用或贡献高质量的AI提示词示例" 
+    href="/prompts" 
+  />
+  <Card 
+    title="AI安全专题" 
+    description="了解AI安全挑战与解决方案" 
+    href="/security" 
+  />
+</div>
+
+export default ({ children }) => <div className="prose max-w-none">{children}</div> 

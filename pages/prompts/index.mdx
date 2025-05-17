@@ -1,0 +1,60 @@
+import { Card } from '../../components/Card'
+
+# AI提示词库
+
+欢迎来到 Westlake for Good 的 AI 提示词库。这里收集了各种高质量的提示词示例，帮助您更有效地使用 AI 模型。
+
+## 什么是提示词工程（Prompt Engineering）?
+
+提示词工程是一种技术，通过精心设计输入提示来引导 AI 模型产生期望的输出。好的提示词可以显著提高 AI 模型的性能和输出质量。
+
+## 提示词分类
+
+我们的提示词库按照不同的应用场景和目的进行分类：
+
+<div className="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2">
+  <Card
+    title="对话类"
+    description="用于增强与AI的对话质量的提示词"
+    href="/prompts/conversation"
+  />
+  <Card
+    title="写作类"
+    description="帮助生成各类文本内容的提示词"
+    href="/prompts/writing"
+  />
+  <Card
+    title="推理类"
+    description="增强AI逻辑推理能力的提示词"
+    href="/prompts/reasoning"
+  />
+  <Card
+    title="编程类"
+    description="用于代码生成和编程辅助的提示词"
+    href="/prompts/coding"
+  />
+  <Card
+    title="创意类"
+    description="促进创造性思维和内容生成的提示词"
+    href="/prompts/creative"
+  />
+  <Card
+    title="教育类"
+    description="用于教学和学习场景的提示词"
+    href="/prompts/education"
+  />
+</div>
+
+## 如何贡献
+
+我们欢迎您为提示词库贡献高质量的提示词示例。详情请参阅我们的[内容贡献指南](/contributing/content)。
+
+## 最新提示词
+
+以下是最近添加到库中的提示词示例：
+
+- [科学文献总结助手](/prompts/writing/science-paper-summarizer)
+- [递进式代码生成器](/prompts/coding/iterative-code-generator)
+- [批判性思维教练](/prompts/reasoning/critical-thinking-coach)
+
+export default ({ children }) => <div className="prose max-w-none">{children}</div> 

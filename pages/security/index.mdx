@@ -1,0 +1,66 @@
+import { Card } from '../../components/Card'
+
+# AI安全专题
+
+欢迎来到 Westlake for Good 的 AI 安全专题页面。本专题致力于探讨 AI 系统面临的安全挑战与解决方案。
+
+## AI安全概述
+
+随着 AI 技术的迅速发展和广泛应用，AI 系统的安全性变得越来越重要。AI 安全涉及多个方面，包括但不限于：
+
+- **提示词注入（Prompt Injection）**：通过精心设计的输入操纵 AI 模型的行为
+- **数据隐私**：保护训练数据和用户数据的隐私
+- **对抗性攻击**：针对 AI 模型的恶意攻击
+- **模型安全**：确保模型本身的安全性和可靠性
+- **伦理考量**：解决 AI 应用中的伦理问题
+
+## 安全研究分类
+
+我们的安全研究按照不同的领域和主题进行分类：
+
+<div className="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2">
+  <Card
+    title="提示词注入"
+    description="研究提示词注入攻击及防御策略"
+    href="/security/prompt-injection"
+  />
+  <Card
+    title="数据隐私"
+    description="探讨 AI 系统中的数据隐私保护"
+    href="/security/privacy"
+  />
+  <Card
+    title="对抗性攻击"
+    description="分析对抗性攻击技术及防御方法"
+    href="/security/adversarial"
+  />
+  <Card
+    title="模型鲁棒性"
+    description="研究提高 AI 模型鲁棒性的方法"
+    href="/security/robustness"
+  />
+  <Card
+    title="AI 伦理"
+    description="探讨 AI 应用中的伦理问题"
+    href="/security/ethics"
+  />
+  <Card
+    title="AI 治理"
+    description="研究 AI 系统的治理框架和政策"
+    href="/security/governance"
+  />
+</div>
+
+## 如何贡献
+
+我们欢迎您为 AI 安全专题贡献研究成果、案例分析或最佳实践。详情请参阅我们的[内容贡献指南](/contributing/content)。
+
+## 最新研究
+
+以下是最近添加到专题中的研究成果：
+
+- [大型语言模型中的提示词注入攻击分析](/security/prompt-injection/analysis)
+- [生成式AI中的隐私保护技术](/security/privacy/generative-ai-privacy)
+- [AI系统的红队评估方法](/security/adversarial/red-teaming)
+
+export default ({ children }) => <div className="prose max-w-none">{children}</div> 

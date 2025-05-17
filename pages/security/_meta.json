@@ -1,0 +1,9 @@
+{
+  "index": "概述",
+  "prompt-injection": "提示词注入",
+  "privacy": "数据隐私",
+  "adversarial": "对抗性攻击",
+  "robustness": "模型鲁棒性",
+  "ethics": "AI伦理",
+  "governance": "AI治理"
+} 
