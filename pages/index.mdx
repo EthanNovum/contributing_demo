@@ -2,32 +2,41 @@ import { Card } from '../components/Card'
 
 # Westlake for Good
 
-欢迎来到 **Westlake for Good** —— 一个去中心化的社区协作网络，我们致力于在AI提示词工程与AI安全领域开展协作与贡献。
+欢迎来到 **Westlake for Good** —— 一个去中心化的社区协作网络，任何人都可以无许可地为智能向善社会创新网络做出贡献。
 
 ## 项目愿景
 
-"Westlake for Good"旨在构建一个去中心化的社区协作网络，支持成员在AI提示词（Prompt Engineering）与AI安全领域开展协作与贡献。借鉴 [Ethereum 文档贡献指北](https://ethereum.org/zh/contributing/#how-to-update-content) 的扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
+"Westlake for Good"旨在构建一个去中心化的社区协作网络，支持每个人都可以无许可地为智能向善社会创新网络做出贡献。我们倡导扁平化、模块化内容结构，以及清晰的贡献工作流，提升社区参与度与知识共享效率。
 
 ## 参与贡献
 
 我们欢迎各种形式的贡献，无论您是研究人员、工程师还是爱好者。
 
-<div className="mt-8 grid gap-4 grid-cols-1 md:grid-cols-3">
-  <Card 
-    title="如何贡献" 
-    description="了解参与社区贡献的方式与流程" 
-    href="/contributing" 
-  />
-  <Card 
-    title="AI提示词库" 
-    description="探索、使用或贡献高质量的AI提示词示例" 
-    href="/prompts" 
-  />
-  <Card 
-    title="AI安全专题" 
-    description="了解AI安全挑战与解决方案" 
-    href="/security" 
+## 如何做出贡献
+
+开发
+
+- [westlakeaiforgood的开发](https://github.com/Westlake-AI-for-Good/westlakeaiforgood-website/issues) - Westlake for Good 网页开发
+- [qijia-app的开发](https://github.com/Westlake-AI-for-Good/qijia-app/issues) - 齐家 App 开发
+- [agent-system的开发](https://github.com/Westlake-AI-for-Good/agent-system/issues) - 智能体系统开发
+
+设计
+
+- [智能向善官网UI设计规范](https://westlakeaiforgood.feishu.cn/wiki/ZTe3wBf7ViQe5Nk75nWceOKznTc)
+- [智能向善VI设计稿](https://figma.com/design/Pg9pUnWhOA8mnveJiwZQ8N/AGI-for-Good?node-id=0-1&t=dGDUQrsenDX9zuD9-0) - Figma
+- [智能向善官网设计稿](https://www.figma.com/design/xZuSLLX0Ecf3fePCgkMP6c/%E6%99%BA%E8%83%BD%E5%90%91%E5%96%84?node-id=11-504&t=ATE9602ehsWILH8V-1) - Figma
+- 添加设计资源 （页面待添加）
+
+
+测试跳转到[prompt.conversation](/prompts/conversation) -/prompts/conversation
+测试跳转到[prompt.writing](/prompts/writing) -/prompts/writing
+
+<div className="mt-8 grid gap-4 grid-cols-1 md:grid-cols-2">
+  <Card
+    title="对话类"
+    description="用于增强与AI的对话质量的提示词"
+    href="/prompts/conversation"
   />
 </div>
 
-export default ({ children }) => <div className="prose max-w-none">{children}</div> 
+
